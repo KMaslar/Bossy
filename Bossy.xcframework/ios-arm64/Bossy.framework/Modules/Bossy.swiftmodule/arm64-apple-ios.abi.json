@@ -1,0 +1,120 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Bossy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Euler",
+        "printedName": "Euler",
+        "declKind": "Import",
+        "moduleName": "Bossy"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BossyValidation",
+        "printedName": "BossyValidation",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "validateShef",
+            "printedName": "validateShef(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bossy0A10ValidationV12validateShefyS2SFZ",
+            "mangledName": "$s5Bossy0A10ValidationV12validateShefyS2SFZ",
+            "moduleName": "Bossy",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pinCode",
+            "printedName": "pinCode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bossy0A10ValidationV7pinCodeyS2iFZ",
+            "mangledName": "$s5Bossy0A10ValidationV7pinCodeyS2iFZ",
+            "moduleName": "Bossy",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Bossy0A10ValidationV",
+        "mangledName": "$s5Bossy0A10ValidationV",
+        "moduleName": "Bossy",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/kostadinagecevska\/Desktop\/Bossy\/Bossy\/BossyValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 193,
+      "length": 20,
+      "value": "\"Dushan Stojanovski\""
+    },
+    {
+      "filePath": "\/Users\/kostadinagecevska\/Desktop\/Bossy\/Bossy\/BossyValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 475,
+      "length": 20,
+      "value": "\"Invalid BOSS name!\""
+    },
+    {
+      "filePath": "\/Users\/kostadinagecevska\/Desktop\/Bossy\/Bossy\/BossyValidator.swift",
+      "kind": "StringLiteral",
+      "offset": 530,
+      "length": 17,
+      "value": "\"BOSS VALIDATED!\""
+    }
+  ]
+}

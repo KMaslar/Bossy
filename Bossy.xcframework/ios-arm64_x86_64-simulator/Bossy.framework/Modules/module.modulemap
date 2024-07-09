@@ -1,0 +1,11 @@
+framework module Bossy {
+  umbrella header "Bossy.h"
+  export *
+
+  module * { export * }
+}
+
+module Bossy.Swift {
+  header "Bossy-Swift.h"
+  requires objc
+}
